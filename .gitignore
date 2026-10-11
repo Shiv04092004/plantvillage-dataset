@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Dataset - avoid uploading thousands of images
+dataset/
+datasets/
+plantvillage dataset/
+PlantVillage/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Model checkpoints - exclude large trained models
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Generated results (uncomment if you don't want to upload results)
+# results/
+
+# Editor files
+.vscode/
